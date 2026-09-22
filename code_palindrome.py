@@ -12,6 +12,6 @@ def is_palindrome(text):
 test_word = input("Enter a word or phrase to check: ")
 
 if is_palindrome(test_word):
-    print(f"🎉 Yes, '{test_word}' is a palindrome!")
+    print(f"Yes, '{test_word}' is a palindrome!")
 else:
-    print(f"❌ No, '{test_word}' is not a palindrome.")
+    print(f"No, '{test_word}' is not a palindrome.")
