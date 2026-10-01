@@ -17,6 +17,7 @@ add_executable(mathdemo
     file3.cpp
     file4.cpp
     file5.cpp
+    file6.cpp
 )
 
 target_link_libraries(mathdemo PRIVATE nlohmann_json::nlohmann_json)
